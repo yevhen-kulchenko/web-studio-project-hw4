@@ -155,8 +155,8 @@ img {
     fill: var(--secondary-text-color);
 }
 
-/* baner */
-.baner {
+/* banner */
+.banner {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -177,7 +177,7 @@ img {
    background-size: cover;
    text-align: center;
 }
-.baner-headline {
+.banner-headline {
     margin-top: 0;
     margin-bottom: 30px;
     font-family: Roboto;
