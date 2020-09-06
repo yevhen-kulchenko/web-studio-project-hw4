@@ -65,7 +65,7 @@ img {
 }
 .logo-footer {
     display: inline-block;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
     color: var(--title-text-color);
 }
 
@@ -157,26 +157,25 @@ img {
 
 /* baner */
 .baner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     max-width: 1600px;
     min-height: 600px;
     margin-left: auto;
     margin-right: auto;
-    background-image: linear-gradient(
-         rgba(47, 48, 58, 0.4),
-         rgba(47, 48, 58, 0.4)
-        ), 
-        url(../images/baner.jpg);
-    background-color: var(--baner-background-color);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    text-align: center;
     margin-bottom: 94px;
-}
-.view {
-    display: block;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+       ), 
+       url(../images/baner.jpg);
+   background-color: var(--baner-background-color);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   text-align: center;
 }
 .baner-headline {
     margin-top: 0;
@@ -445,8 +444,7 @@ img {
 }
 .address-text {
     margin-top: 0;
-    margin-bottom: 0;
-    padding-bottom: 9px;
+    margin-bottom: 9px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -457,7 +455,7 @@ img {
 }
 .footer-contacts {
     display: inline-block;
-    padding-bottom: 9px;
+    margin-bottom: 9px;
     text-decoration: none;
     font-family: Roboto;
     font-style: normal;
@@ -476,8 +474,7 @@ img {
 }
 .social {
     margin-top: 0;
-    margin-bottom: 0;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -555,6 +552,7 @@ img {
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.03em;
+    cursor: pointer;
 }
 .portfolio-button /*.primary*/ {
     color: var(--title-text-color);
